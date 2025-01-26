@@ -198,3 +198,86 @@ ul > a:hover{
     margin-top: -110px;
     margin-left: -80px;
 }
+
+
+/* Some Facts */
+
+.badge > img{
+    width: 33px;
+}
+
+.facts{
+    margin-top: 60px;
+}
+
+.fact-container{
+    width: 40%;
+}
+
+.badge-container{
+    padding: 0 20px;
+    display: grid;
+    /* grid-template-columns: 1fr 1fr 1fr 1fr; same to under's property  */
+    grid-template-columns: repeat(4, 1fr);
+    gap: 50px;
+    justify-content: center;
+    width: 70%;
+    margin: 20px auto;
+}
+
+.badge{
+    border: 1.2px solid var(--button-background);
+    display: flex;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 10px;
+    gap: 10px ;
+}
+
+/* Our Sponsors */
+.sp-text{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+.logo-container > img{
+    width: 100px;
+    filter: grayscale(100%); 
+    transition: filter 0.3s ease;
+}
+
+.logo-container > img:hover{
+    filter: grayscale(0%); 
+}
+
+.logo-container{
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+    width: 80%;
+    margin: 20px auto;
+}
+
+
+/* Footer */
+footer{
+    box-sizing: content-box;
+    display: flex;
+    justify-content: center;
+    background-color: var(--background-color);
+    padding: 30px;
+    max-width: 1180px;
+    margin: 100px auto;
+}
+
+
+footer p > a{
+    text-decoration: underline;
+}
