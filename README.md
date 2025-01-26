@@ -4,7 +4,7 @@ This repository contains the solution for **PH Task - G3 Architect**, showcasing
 
 ## Live Demo  
 
-👉 **[View Live Project]()**  
+🎯 **[View Live Project](https://ahassh1.github.io/g3-architech1/)**  
 
 ## Features  
 
@@ -27,4 +27,6 @@ Make sure you have:
 
 1. Clone the repository:  
    ```bash  
-  
+  https://ahassh1.github.io/g3-architech1
+  ##Thank you.
+  Thank you.
