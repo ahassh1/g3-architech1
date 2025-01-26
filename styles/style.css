@@ -14,14 +14,17 @@
 a {
     text-decoration: none;
     color: rgb(48, 48, 48);
-    font-family: Work Sans;
     font-size: 18px;
     font-weight: 500;
 }
 
 /* Shared Styles */
+body{
+    font-family: Work Sans; 
+}
+
 .section{
-    max-width: 1280px;
+    max-width: 1180px;
     margin: 0px auto;
 }
 
@@ -38,7 +41,7 @@ a {
     background: rgb(255, 144, 14);
     border-radius: 8px;
     background: rgb(255, 144, 14);
-    padding: 21px 25px;
+    padding: 18px 24px;
     color: white;
     font-weight: 600;
     border: 2px solid var(--button-background);
@@ -52,15 +55,13 @@ a {
 
 .text{
     text-align: center;
-    color: rgb(114, 114, 114);
-    font-family: Work Sans;
+    color: rgb(114, 114, 114); 
     font-size: 16px;
     font-weight: 400;
 }
 .text-left{
     text-align: left;
-    color: rgb(114, 114, 114);
-    font-family: Work Sans;
+    color: rgb(114, 114, 114); 
     font-size: 16px;
     font-weight: 400;
     padding: 10px;
@@ -98,3 +99,102 @@ ul > a:hover{
     color: var(--button-background);
 }
 
+.hero{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.hero  h1{
+    font-size: 3rem;
+    text-align: center;
+}
+
+.bannar{
+    margin-top: 50px;
+}
+
+/* Quick List  */
+.squre-img , .quick-list{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.quick-list {
+    margin-top: 80px;
+    gap: 50px;
+}
+
+.quick-list-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 20px;
+}
+
+.quick-list-description p{
+       text-align: left;
+} 
+
+.quick-list-description h2{
+    font-size: 3rem;
+}
+
+.quick-list-description h2 span:first-of-type{
+    font-weight: 400;
+    color: var(--dark3);
+}
+
+.quick-list-description h2 span:nth-of-type(2) {
+    color: var(--button-background);
+}
+
+/* Features you will love & enjoy */
+.item h2{
+    border-left: 4px solid var(--button-background);
+    margin-top: 60px;
+    padding-left: 10px;
+    font-size: 3rem;
+}
+
+.love >div {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.item {
+    margin-right: 10vw;
+}
+
+.card-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.h3{
+   font-size: 1.01rem; 
+}
+
+.card{
+     padding:10px 15px;
+     box-shadow: 2px 2px 20px rgb(233, 233, 233);
+     border-radius: 8px;
+}
+
+.exp > span{
+    font-size: 4rem;
+}
+
+.exp{
+    margin-top: -110px;
+    margin-left: -80px;
+}
